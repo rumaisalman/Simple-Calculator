@@ -1,18 +1,17 @@
 {
-  "name": "guessing-game",
+  "name": "@rumaisa/numguess",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.4.3"
   }
 }

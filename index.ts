@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 import inquirer from "inquirer";
 
 const randomNumber = Math.floor(Math.random() * 10)
